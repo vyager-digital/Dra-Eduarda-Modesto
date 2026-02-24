@@ -494,19 +494,16 @@
       overflow: hidden;
     }
     .proof-accent {
-      position: absolute;
-      top: -1.5rem;
-      right: -1.5rem;
-      width: 50%;
-      aspect-ratio: 1;
-      border-radius: 50%;
-      border: 1px solid var(--gold);
-      opacity: .4;
+      display: none;
     }
     .proof-stat-card {
-      position: absolute;
-      bottom: -1.5rem;
-      left: -1.5rem;
+      position: relative;
+      bottom: auto;
+      left: auto;
+      margin-top: 1.25rem;
+      display: inline-flex;
+      gap: 1.25rem;
+      align-items: center;
       background: var(--ink);
       color: var(--cream);
       border-radius: 20px;
